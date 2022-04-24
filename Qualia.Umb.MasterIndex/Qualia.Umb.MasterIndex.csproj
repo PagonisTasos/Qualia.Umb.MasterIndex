@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		
+        <ContentTargetFolders>.</ContentTargetFolders>
+        <Product>Qualia.Umb.MasterIndex</Product>
+        <PackageId>Qualia.Umb.MasterIndex</PackageId>
+        <Title>Qualia.Umb.MasterIndex</Title>
+		<Description>
+			An umbraco cms package creating a new, extendable index, capable of managing greek content.
+		</Description>
+		<PackageProjectUrl>https://github.com/PagonisTasos/Qualia.Umb.MasterIndex</PackageProjectUrl>
+		<PackageTags>umbraco plugin package; greek extendable examine index</PackageTags>
+		<RootNamespace>Qualia.Umb.MasterIndex</RootNamespace>
+		<Version>1.0.0</Version>
+		<Authors>Pagonis Tasos</Authors>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Umbraco.Cms.Web.Website" Version="9.1.2" />
+        <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="9.1.2" />
+    </ItemGroup>
+</Project>
